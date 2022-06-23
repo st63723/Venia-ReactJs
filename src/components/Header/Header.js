@@ -58,7 +58,7 @@ function Header() {
                             <Link to="/" aria-label='Link to Women'>Women</Link>
                             <Link to="/Home" aria-label='Link to Men'>Men</Link>
                             <Link to="/Home" aria-label='Link to Smart Gear'>Smart Gear</Link>
-                            <Link to="/Home" aria-label='Link to Accessories'>Accessories</Link>  
+                            <Link to="/ShoppingBag" aria-label='Link to Accessories'>My Cart</Link>  
                         </span>     
                     </nav>   
                 </div>
@@ -102,7 +102,7 @@ function Header() {
                                 <Link to="/">Women</Link>
                                 <Link to="/Home">Men</Link>
                                 <Link to="/Home">Smart Gear</Link>
-                                <Link to="/Home">Accessories</Link>  
+                                <Link to="/ShoppingBag">My Cart</Link>  
                         </nav>   
                     </div>
                     {/* menu end */}

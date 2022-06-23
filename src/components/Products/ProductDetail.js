@@ -33,6 +33,7 @@ function ProductDetail() {
     useEffect(() => {
         if (cartItems.length >= 1) {
             document.title = `Cart (${cartItems.length})`
+            alert("Product added in 'My Cart' successfully..")
         }
     }, [cartItems.length])
     const addItemToCart = (product) => {

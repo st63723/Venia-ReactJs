@@ -31,38 +31,39 @@ function Filters() {
                 <h6>Color</h6>
                     <div role="CheckboxGroup">
                       <span className='checkbox'>
-                        <input id="option" name='Option' value="val" checked type="checkbox" />
+                        
+                        <input id="Red" name='Red' value="val" defaultChecked="Checked" type="checkbox" />
                       </span>
                       <span className='checkbox1'>
-                        <input id="option1" type="checkbox" name='Option1' value="val" />
+                        <input id="Black" type="checkbox" name='Black' value="val" />
                       </span>  
                       <span className='checkbox2'>
-                        <input id="option" name='Option' value="val" type="checkbox" />
+                        <input id="Green" name='Green' value="val" type="checkbox" />
                       </span>
                       <span className='checkbox3'>
-                        <input id="option1" type="checkbox" name='Option1' value="val" />
+                        <input id="Purple" type="checkbox" name='Purple' value="val" />
                       </span>                     
                     </div>
              </fieldset>
 
              {/* Brands section start */}   
             <fieldset>
-                <h6>Brand</h6>
+                <h6>Brands</h6>
                     <div role="CheckboxGroup">
-                      <input id="option" name='Option' value="val" type="checkbox" />
-                      <label for="option">Option</label>
+                      <input id="Janie and Jack" name='Janie and Jack' value="val" type="checkbox" />
+                      <label htmlFor="Janie and Jack">Janie and Jack</label>
                     </div>
                     <div role="CheckboxGroup">
-                      <input id="option1" type="checkbox" name='Option1' value="val" />
-                      <label for="option1">Option</label>
+                      <input id="Old Navy and Old Navy Outlet" type="checkbox" name='Old Navy and Old Navy Outlet' value="val" />
+                      <label htmlFor="Old Navy and Old Navy Outlet">Old Navy and Old Navy Outlet</label>
                     </div>
                     <div role="CheckboxGroup">
-                      <input id="option2" type="checkbox" name='Option2' value="val" />
-                      <label for="option2">Option</label>
+                      <input id="Lilly Pulitzer" type="checkbox" name='Lilly Pulitzer' value="val" />
+                      <label htmlFor="Lilly Pulitzer">Lilly Pulitzer</label>
                     </div>
                     <div role="CheckboxGroup">
-                      <input id="option3" type="checkbox" name='Option3' value="val" />
-                      <label for="option3">Option</label>
+                      <input id="Zara" type="checkbox" name='Zara' value="val" />
+                      <label htmlFor="Zara">Zara</label>
                     </div>
                     <a href={url} aria-label='Show More Link' className="shoremore">Show more</a>   
              </fieldset>  
@@ -71,41 +72,41 @@ function Filters() {
              <fieldset>
                 <h6>Size</h6>
                     <div role="CheckboxGroup">
-                      <input id="option" name='Option' value="val" type="checkbox" />
-                      <label for="option">Option</label>
+                      <input id="small" name='small' value="val" type="checkbox" />
+                      <label htmlFor="small">Small</label>
                     </div>
                     <div role="CheckboxGroup">
-                      <input id="option1" type="checkbox" name='Option1' value="val" />
-                      <label for="option1">Option</label>
+                      <input id="Large" type="checkbox" name='Large' value="val" />
+                      <label htmlFor="Large">Large</label>
                     </div>
                     <div role="CheckboxGroup">
-                      <input id="option2" type="checkbox" name='Option2' value="val" />
-                      <label for="option2">Option</label>
+                      <input id="Medium" type="checkbox" name='Medium' value="val" />
+                      <label htmlFor="Medium">Medium</label>
                     </div>
                     <div role="CheckboxGroup">
-                      <input id="option3" type="checkbox" name='Option3' value="val" />
-                      <label for="option3">Option</label>
+                      <input id="XL" type="checkbox" name='xl' value="val" />
+                      <label htmlFor="XL">XL</label>
                     </div>
                     <a href={url} aria-label='Show More Link' className="shoremore">Show more</a>       
              </fieldset>   
              
              <fieldset>
-                <h6>Brand</h6>
+                <h6>Price</h6>
                     <div role="CheckboxGroup">
-                      <input id="option" name='Option' value="val" type="checkbox" />
-                      <label for="option">Option</label>
+                      <input id="Low" name='Low' value="val" type="checkbox" />
+                      <label htmlFor="Low">Low</label>
                     </div>
                     <div role="CheckboxGroup">
-                      <input id="option1" type="checkbox" name='Option1' value="val" />
-                      <label for="option1">Option</label>
+                      <input id="Medium" type="checkbox" name='Medium' value="val" />
+                      <label htmlFor="Medium">Medium</label>
                     </div>
                     <div role="CheckboxGroup">
-                      <input id="option2" type="checkbox" name='Option2' value="val" />
-                      <label for="option2">Option</label>
+                      <input id="High" type="checkbox" name='High' value="val" />
+                      <label htmlFor="High">High</label>
                     </div>
                     <div role="CheckboxGroup">
-                      <input id="option3" type="checkbox" name='Option3' value="val" />
-                      <label for="option3">Option</label>
+                      <input id="HighRange" type="checkbox" name='HighRange' value="val" />
+                      <label htmlFor="HighRange">High Range</label>
                     </div>
                     <a href={url} aria-label='Show More Link' className="shoremore">Show more</a>       
              </fieldset>    

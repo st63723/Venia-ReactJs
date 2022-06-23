@@ -6,7 +6,7 @@ function Banner() {
     return (
         <>
         <section>
-        <div className="banner-box" role="Banner and Text">
+        <div className="banner-box">
             <div className="aem-Grid aem-Grid--12">
 
                 {/* womens Text box start for desktop */}
@@ -19,12 +19,12 @@ function Banner() {
 
                 {/* Banner Image Start */}
                     <div className="aem-GridColumn aem-GridColumn--default--9 desktop-view">
-                        <span className="banner-image" aria-label='Banner Image' tabIndex={0}>
+                        <span className="banner-image" tabIndex={0}>
                             <img src={require('../../assets/images/banner.jpg')} alt='Banner Image' tabIndex={0} />
                         </span>
                     </div>
                     <div className="aem-GridColumn aem-GridColumn--phone--12 mobile-view">
-                        <span className="banner-image" aria-label='Banner Image' tabIndex={0}>
+                        <span className="banner-image" tabIndex={0}>
                             <img src={require('../../assets/images/banner.jpg')} alt='Banner Image' tabIndex={0} />
                         </span>
                     </div>

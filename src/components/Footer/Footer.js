@@ -33,7 +33,7 @@ function Footer() {
                 <article className='footer-box'>
                     <h4>Follow Us!</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <div className='social-media' role="Social Media">
+                    <div className='social-media'>
                         <a href={url} aria-label='Instagram Link'>
                             <img src={InstagramIcon} alt="Instagram Icon" />
                         </a>
@@ -55,7 +55,7 @@ function Footer() {
                 <img src={require('../../assets/images/venia-logo.png')} alt='Venia Logo' />
                 </div>
                 <div className="footer-links aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12 mobile-view">
-                     <nav role="footer links">
+                     <nav>
                         <Link to="/">Terms of Usage</Link>
                         <Link to="/">Privacy Policy</Link>    
                      </nav>      
@@ -64,7 +64,7 @@ function Footer() {
                     © Company Name Address Ave, City Name, State ZIP
                 </div>
                 <div className="footer-links aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--hide">
-                     <nav role="footer links">
+                     <nav>
                         <Link to="/">Terms of Usage</Link>
                         <Link to="/">Privacy Policy</Link>    
                      </nav>      

@@ -1,6 +1,7 @@
 @import './../../common-scss/variables.scss';
 
 footer{
+    margin-top: 30px;
     .footer{
         display: $display-flex;
         flex-flow: row wrap;

@@ -102,7 +102,7 @@ function Products() {
                             <Link to={`/products/${product.id}`}>
                             <article> 
                                 <div className='product'>
-                                    <img src={product.image} alt="Product" /> 
+                                    <img src={product.image} alt={product.title} /> 
                                     <span className='product-name'>{product.title}</span>
                                     <span className='product-price'>${product.price}</span>
                                     <img src={HeartIcon} className="heart-icon" alt="Heart icon" />                   
@@ -115,9 +115,9 @@ function Products() {
              {/* products List end*/}   
 
             {/* Pagination start*/}          
-             <div className="pagination-background" role="Pagination">
+             <div className="pagination-background">
                 <Pagination
-                activePage={products}
+                // activePage={products}
                 itemsCountPerPage={postsPerPage}
                 totalItemsCount={products.length}
                 pageRangeDisplayed={products.length / postsPerPage}
