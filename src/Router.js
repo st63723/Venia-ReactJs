@@ -14,6 +14,7 @@ import Footer from './components/Footer/Footer';
   <BrowserRouter>
     <App>
     <Routes>
+    <Route path="/" element={ <Home/> } />
           <Route path="/veniareactjs" element={ <Home/> } />
           <Route path="/Home" element={ <Home/> } />
           <Route path="/products/:productId" element={ <ProductDetail/>} />
