@@ -55,10 +55,10 @@ function Header() {
                             Shop Categories <span className='cross' onClick={() => setHideLightbox(false)}> X </span>
                         </span>
                         <span className='categories' role="Menu Navigation Links">
-                            <Link to="/" aria-label='Link to Women'>Women</Link>
+                            <Link to="/" aria-label='Link to Women'>Home</Link>
+                            <Link to="/ShoppingBag" aria-label='Link to Accessories' className='mycart'>My Cart</Link>
                             <Link to="/Home" aria-label='Link to Men'>Men</Link>
-                            <Link to="/Home" aria-label='Link to Smart Gear'>Smart Gear</Link>
-                            <Link to="/ShoppingBag" aria-label='Link to Accessories'>My Cart</Link>  
+                            <Link to="/Home" aria-label='Link to Smart Gear'>Smart Gear</Link>  
                         </span>     
                     </nav>   
                 </div>
@@ -99,10 +99,11 @@ function Header() {
                     {/* menu start */}
                     <div className="aem-GridColumn aem-GridColumn--default--7">
                         <nav className="menu-desktop">
-                                <Link to="/">Women</Link>
+                                <Link to="/">Home</Link>
+                                <Link to="/ShoppingBag" className='mycart'>My Cart</Link>  
                                 <Link to="/Home">Men</Link>
                                 <Link to="/Home">Smart Gear</Link>
-                                <Link to="/ShoppingBag">My Cart</Link>  
+                                
                         </nav>   
                     </div>
                     {/* menu end */}
