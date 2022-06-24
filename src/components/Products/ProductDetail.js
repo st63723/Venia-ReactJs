@@ -57,8 +57,8 @@ function ProductDetail() {
                    <div className="product-image aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
                         <nav className="crumbs mobile-view">
                                 <Link to="/" aria-label='Clothing url'>Clothing</Link> /
-                                <Link to="/About" aria-label='Womens url'>Women's</Link> /
-                                <Link to="/About" aria-label='Outerwear url'>Outerwear</Link>
+                                <Link to="/" aria-label='Womens url'>Women's</Link> /
+                                <Link to="/" aria-label='Outerwear url'>Outerwear</Link>
                         </nav>
                        <img src={product.image} alt="Product Image" />
                    </div>
@@ -74,8 +74,8 @@ function ProductDetail() {
                        <h6 className="product-price" role="Product Price">${product.price}</h6>
                        <div className="product-rating" role="Product star Rating">{product.rating.rate}&nbsp; {product.rating.count}</div>
                        <div className="description" role="Product Description">
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna. 
-                           <span class="readmore">Read more</span>
+                           {product.description}
+                           <span className="readmore">Read more</span>
                        </div>
                        <div className="product-colors" role="Product multiple colors">
                            <h6 className="p-details-heading">Color</h6>

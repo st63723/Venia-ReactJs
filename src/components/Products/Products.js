@@ -99,7 +99,7 @@ function Products() {
              <section>
                 <div className='products-box'>
                         {currentPosts.map((product) => (     
-                            <Link to={`/products/${product.id}`}>
+                            <Link to={`/products/${product.id}`} key={product.id}>
                             <article> 
                                 <div className='product'>
                                     <img src={product.image} alt={product.title} /> 

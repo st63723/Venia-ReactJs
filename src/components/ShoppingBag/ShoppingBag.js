@@ -18,7 +18,7 @@ function ShoppingBag() {
                 <section>     
                     {cartItems.map((product) => ( 
                     <> 
-                    <div className="shopping-thumbnails aem-Grid aem-Grid--12">
+                    <div className="shopping-thumbnails aem-Grid aem-Grid--12" key={product.id}>
                         <div className="aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--phone--12" role="Added Cart items">
                             <img src={product.image} alt="Product Image" />
                             <div className="bag-product-details" role="Added Cart item Details">
