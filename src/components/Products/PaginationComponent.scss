@@ -9,9 +9,18 @@
     li{
         list-style: none;
         padding-right: 20px;
+        &.active{
+            a.page-link{
+                text-decoration: underline;
+            }    
+        }
         a{
             text-decoration: none;
             color: $dark-color;
         }
     }
+    .disabled{
+        display: $display-none;
+    }
+    
 }

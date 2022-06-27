@@ -1,14 +1,14 @@
 
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import HeaderComponent from './components/Header/HeaderComponent';
+import FooterComponent from './components/Footer/FooterComponent';
 import './App.scss';
 
 function App(props) {
   return (
     <div className='container'>
-       <Header />
+       <HeaderComponent />
       {props.children}
-      <Footer />
+      <FooterComponent />
     </div>
   );
 }

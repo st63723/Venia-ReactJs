@@ -9,6 +9,7 @@ import Axios from "axios";
 import './ProductDetails.scss';
 import { useDispatch, useSelector } from "react-redux"
 import { addToCart } from "../../reducers/products";
+import LoaderComponent from "../Loader/LoaderComponent";
 
 function ProductDetail() {
     const cartItems = useSelector(store => store.products.cart);
@@ -154,9 +155,7 @@ function ProductDetail() {
                    </div></>
            ))} 
         </div> 
-        : <div style={{ textAlign: 'center' }}>
-            <img src={require('../../assets/images/loader.gif')} alt="Loading..." />
-        </div>
+        : <LoaderComponent />
     )
 }
 let id = 0;

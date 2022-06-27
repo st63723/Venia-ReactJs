@@ -2,21 +2,18 @@ import React from "react";
 import App from "./App";
 
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
-
-import Home from './components/Home/Home';
 import ProductDetail from './components/Products/ProductDetail';
 import ShoppingBag from './components/ShoppingBag/ShoppingBag';
-
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import HeaderComponent from './components/Header/HeaderComponent';
+import HomePageComponent from "./components/Home/HomePageComponent.js";
 
  const Router = () => (
   <BrowserRouter>
     <App>
     <Routes>
-    <Route path="/" element={ <Home/> } />
-          <Route path="/veniareactjs" element={ <Home/> } />
-          <Route path="/Home" element={ <Home/> } />
+    <Route path="/" element={ <HomePageComponent/> } />
+          <Route path="/veniareactjs" element={ <HomePageComponent/> } />
+          <Route path="/Home" element={ <HomePageComponent/> } />
           <Route path="/products/:productId" element={ <ProductDetail/>} />
           <Route path="/ShoppingBag" element={ <ShoppingBag /> } />
       </Routes>
@@ -33,7 +30,7 @@ import Footer from './components/Footer/Footer';
 
   return (
     <>
-    <Header />
+    <HeaderComponent />
     <div className="dashboard">
       <h3>
         <span onClick={navigateToDashboard}>
